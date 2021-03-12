@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>OptimizedHTML 5</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dest/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+
+	<!-- ШРИФТ -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!-- 	<style>
+	.container
+	div
+	// background-color: pink	
+	border: 1px solid black
+	font-size: 20px
+
+	.block
+	height: 150px
+</style> -->
+
+</head>
+
+<body>
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Запустить модальное окно
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<div class="container">
+		<div class="row"><h1>КОЛОНКИ ОДИНАКОВОЙ ШИРИНЫ</h1></div>
+		<div class="row">
+			<div class="col">1 из 2</div>
+			<div class="col">2 из 2</div>
+		</div>
+		<br>
+		<div class="row"><h1>УСТАНОВКИ ШИРИНЫ ОДНОЙ КОЛКОНИК</h1></div>
+		<div class="row">
+			<div class="col">1 из 3</div>
+			<div class="col-6">2 из 3</div>
+			<div class="col">3 из 3</div>
+		</div>
+		<br>
+		<div class="row"><h1>КОНТЕНТ ПЕРЕМЕННОЙ ШИРИНЫ</h1></div>
+		<div class="row justify-content-sm-center"> <!-- justify-content-sm-center у row, то весь ряд центрируется и общая ширина зависит от ширины центра -->
+			<div class="col">1 из 3</div>
+			<div class="col-sm-auto">занимает ширину из текста! занимает ширину из текста! занимает ширину из текста!</div>
+			<div class="col">3 из 3</div>
+		</div>
+		<br>
+		<div class="row"><h1>МУЛЬТИ-РЯД</h1></div>
+		<div class="row">
+			<div class="col">1 из 4</div>
+			<div class="col">2 из 4</div>
+			<div class="w-100"></div>
+			<div class="col">3 из 4</div>
+			<div class="col">4 из 4</div>
+		</div>
+		<br>
+		<div class="row"><h1>БРЕЙКПОИНТЫ</h1></div>
+		<div class="row">
+			<div class="col-6 col-md-8">col-8</div>
+			<div class="col-6 col-md-4">col-4</div>
+		</div>
+		<br>
+		<div class="row"><h1>ОТОБРАЖЕНИЕ НА МОБИЛЬНЫХ УСТРОЙСТВАХ</h1></div>
+		<div class="row">
+			<div class="col-sm">col-sm</div>
+			<div class="col-sm">col-sm</div>
+			<div class="col-sm">col-sm</div>
+		</div>
+		<br>
+		<div class="row"><h1>СОЗДАНИЕ СЛОЖНОЙ КОМБИНИРОВАННОЙ СЕТКИ</h1></div>
+		<div class="row">
+			<div class="col-md-8">col-md-8</div>
+			<div class="col-6 col-md-4">col-6 col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-6 col-md-4">col-6 col-md4</div>
+			<div class="col-6 col-md-4">col-6 col-md4</div>
+			<div class="col-6 col-md-4">col-6 col-md4</div>
+		</div>
+		<div class="row">
+			<div class="col-6">col-6</div>
+			<div class="col-6">col-6</div>
+		</div>
+		<br>
+		<div class="row"><h1>ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ</h1></div>
+		<div class="row align-items-start block">
+			<div class="col">UP</div>
+			<div class="col">UP</div>
+			<div class="col">UP</div>
+		</div>
+		<br>
+		<div class="row"><h1>ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ</h1></div>
+		<div class="row block">
+			<div class="col align-self-start">START</div>
+			<div class="col align-self-center">CENTER</div>
+			<div class="col align-self-end">END</div>
+		</div>
+		<br>
+		<div class="row"><h1>ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ</h1></div>
+		<div class="row justify-content-start">
+			<div class="col col-4">justify-content-start</div>
+			<div class="col col-4">justify-content-start</div>
+		</div>
+		<br>
+		<div class="row justify-content-center">
+			<div class="col col-4">justify-content-center</div>
+			<div class="col col-4">justify-content-center</div>
+		</div>
+		<br>
+		<div class="row justify-content-end">
+			<div class="col col-4">justify-content-end</div>
+			<div class="col col-4">justify-content-end</div>
+		</div>
+		<br>
+		<div class="row justify-content-around">
+			<div class="col col-4">justify-content-around</div>
+			<div class="col col-4">justify-content-around</div>
+		</div>
+		<br>
+		<div class="row justify-content-between">
+			<div class="col col-4">justify-content-between</div>
+			<div class="col col-4">justify-content-between</div>
+		</div>
+		<br>
+		<div class="row"><h1>УДАЛЕНИЕ ПОЛЕЙ МЕЖДУ КОЛОНКАМИ</h1></div>
+		<div class="row no-gutters">
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+		</div>
+		<br>
+		<div class="row"><h1>КЛАССЫ ПОРЯДКА ЭЛЕМЕНТОВ</h1></div>
+		<div class="row">
+			<div class="col">Первый неупорядоченный элемент</div>
+			<div class="col order-12">Второй, упорядоченный как последний</div>
+			<div class="col order-1">Третий, упорядоченный как первый</div>
+		</div>
+		<div class="row">
+			<div class="col">Первый неупорядоченный элемент</div>
+			<div class="col order-last">Второй, упорядоченный как последний</div>
+			<div class="col order-first">Третий, упорядоченный как первый</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>

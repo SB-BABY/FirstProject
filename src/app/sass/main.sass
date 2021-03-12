@@ -1,0 +1,638 @@
+@import config
+
+
+.form-inner
+  padding: 50px
+
+  input, textarea
+    display: block
+    width: 100%
+    padding: 0 20px
+    margin-bottom: 10px
+    background: #E9EFF6
+    line-height: 40px
+    border-width: 0
+    border-radius: 20px
+    font-family: 'Roboto', sans-serif
+
+  input[type="submit"]
+    margin-top: 30px
+    background: #f69a73
+    border-bottom: 4px solid #d87d56
+    color: white
+    font-size: 14px
+
+  textarea
+    resize: none
+
+// CUSTOM USER STYLES & IMPORTS
+
+html, body
+	font-size: 14px
+	height: 100%//расстягивет body на всю высоты
+
+body
+	font-family: 'Lato', sans-serif
+
+.header
+	padding: 15px
+	background-color: #ffffff
+
+.main-menu
+	// font-size: 14px
+	margin: 0
+	padding: 0
+	display: flex
+	list-style: none
+	a
+		color: #c7c7c7
+		text-decoration: none
+		display: block
+		padding: 25px
+		&:hover
+			color: #1e1e1e
+
+.cont-header
+	background-image: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.1) 50%), url(../images/фон.png)
+	.container
+		padding: 200px 0
+		h1
+			font-family: 'Tenor Sans', sans-serif
+			font-size: 40px
+			font-weight: 100
+			
+		button
+			color: #ffffff
+			border: none
+			outline: none 
+			border-radius: 40px
+			background-color: #00a8bc
+			padding: 20px 60px
+.text_a
+	color: white
+	&:hover
+		text-decoration: none
+		color: white
+
+
+.popular	
+	hr
+		margin: 80px 0
+		border: none
+		background-color: #696969
+		height: 3px
+		width: 50px
+	h1
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 40px
+		font-weight: 100
+		margin: 50px 0
+		margin-left: -20px
+	.main-menu-2	
+		margin-left: -70px
+		display: flex
+		list-style: none
+		a
+			width: 100%
+			color: #c7c7c7
+			text-decoration: none
+			display: block
+			padding: 25px
+			position: relative
+			&:hover
+				color: #1e1e1e
+			&:before
+				content: ''
+				bottom: 15px
+				left: 0
+				position: absolute
+				background-color: #00a8bc
+				height: 3px
+				width: 0%
+				transition: 0.2s
+			&:hover:before 
+				width: 100%
+
+.owl-prev
+	position: absolute
+	left: -5%
+	top: 45%
+	opacity: 10%
+
+.owl-next
+	position: absolute
+	right: -5%
+	top: 45%
+	opacity: 10%
+
+.owl-content
+	padding: 10px 0
+	.door
+		margin: 10px 8px 
+		box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+		border-radius: 20px
+		img
+			padding: 35px 70px
+		h1, p, hr, h2
+			padding-left: 25px
+		p
+			color: #c7c7c7
+			margin-top: -40px	
+		hr
+			border: none
+			height: 1px
+			width: 35%
+			background-color: #696969
+			margin: 10px 25px
+		h1
+			font-weight: 750
+			font-size: 19.4px
+			padding-bottom: 25px
+		&:hover
+			transform: scale(1.03)
+			box-shadow: 0 0 5px 3px rgba(221, 221, 221, 1)
+
+.prem
+	background-color: #f6f6f6
+	hr
+		margin: 80px 0
+		border: none
+		background-color: #696969
+		height: 3px
+		width: 50px
+	h1
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 40px
+		font-weight: 100
+		margin: 50px 0
+		margin-left: -20px
+	.block
+		margin-bottom: 80px
+		h2
+			font-family: 'Tenor Sans', sans-serif
+			position: relative
+			margin: 0 0
+		span
+			font-size: 24px
+			color: #00a8bc
+		p
+			color: #c7c7c7
+		hr
+			border: none
+			background-color: #696969
+			height: 1px
+			width: 100%
+			margin: 25px 0 
+
+.akci
+	hr
+		margin: 80px 0
+		border: none
+		background-color: #696969
+		height: 3px
+		width: 50px
+	h1
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 40px
+		font-weight: 100
+		margin: 50px 0
+		margin-left: -20px
+	.banner
+		font-family: 'Lato', sans-serif
+		margin: 10px auto
+		box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+		border-radius: 20px
+		padding: 40px 120px 60px 60px
+		h1
+			margin: 0 0  
+			font-size: 60px
+			color: #00a8bc
+			font-weight: 800
+		h2
+			margin-top: -15px
+			font-size: 14px
+			margin-bottom: 20px
+		p
+			font-size: 14px
+			color: #c7c7c7
+		button
+			font-size: 14px
+			color: #ffffff
+			border: none
+			outline: none 
+			border-radius: 40px
+			background-color: #00a8bc
+			padding: 15px 40px
+		img
+			width: 150%
+
+.partners
+	background-color: #f6f6f6	
+	hr
+		margin: 80px 0
+		border: none
+		background-color: #696969
+		height: 3px
+		width: 50px
+	h1
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 40px
+		font-weight: 100
+		margin: 50px 0
+		margin-left: -20px
+	.logo
+		margin: 10px 8px
+		background-color: #ffffff
+		box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+		border-radius: 5px
+		margin-bottom: 80px
+		height: 130px
+		img
+			padding: 40px 10px
+
+			
+.footer
+	background-color: #1e1e1e
+	padding: 45px
+	font-size: 14px
+	.main-menu-2
+		list-style: none
+		li
+			color: #c7c7c7
+			text-decoration: none
+			display: block
+			padding-bottom: 10px
+		a
+			color: #c7c7c7
+			text-decoration: none
+			display: block 
+	p
+		color: grey
+
+.position
+	background-color: #f6f6f6	
+	padding: 40px 0	30px 0
+	span
+		color: grey
+		margin-left: 5px
+	h1
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 28px
+		font-weight: 100
+		padding-top: 20px
+		padding-bottom: 30px
+	.tovar
+		background-color: white
+		margin: 10px 8px 
+		box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+		border-radius: 20px
+		width: 100%
+		height: 400px
+		img
+			padding: 35px 35px
+			height: 300px
+			object-fit: scale-down
+		a, p
+			padding: 0 20px
+		a
+			text-decoration: none
+			font-size: 18px
+			color: #333333
+			font-weight: 700
+		p	
+			margin-top: 15px
+			color: grey
+	.cont
+		background-color: white
+		margin: 40px 0
+		box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+		border-radius: 20px
+		.accordion
+			cursor: pointer
+			padding: 20px 35px
+			transition: 0.4s
+			hr
+				margin: 20px 0 0 0 
+				border: none
+				background-color: grey
+				height: 1px
+			span
+				color: blue
+				padding-right: 20px
+		.panel
+			padding: 0 40px 10px
+			display: none
+			overflow: hidden
+			h2
+				font-size: 18px
+				font-weight: 700
+		.block
+			hr
+				border: none
+				background-color: black
+				height: 1px
+				width: 30px
+				margin-right: 100%
+
+.left
+	padding: 25px 30px
+	background-color: white
+	box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+	border-radius: 20px
+	.panel
+		padding-bottom: 15px
+		input[type="checkbox"]
+			display: none
+		label
+			padding-left: 10px
+			&::before
+				content: ''
+				display: inline-block
+				vertical-align: middle
+				width: 20px
+				height: 20px
+				border: 1px solid grey
+				border-radius: 5px
+				margin-left: -10px
+				margin-right: 10px
+				transition: 0.5s
+		input[type="checkbox"]:checked + label::before
+			background-color: #00a8bc
+			text-align: center
+			content: '✓'
+			color: white
+		input
+			margin-top: 10px
+			margin-bottom: 20px
+			margin-right: 6px
+			width: 85px
+			border-radius: 7px
+			padding: 10px 10px
+			border: 1px solid #d0c4db
+			outline: none
+			height: 33px
+			transition: .2s
+			&::-webkit-outer-spin-button, &::-webkit-inner-spin-button
+		    -webkit-appearance: none
+		    margin: 0
+		.range
+			border-radius: 4px
+			background-color: #c7c7c7
+			height: 2px
+			margin-bottom: 40px
+			button
+				position: absolute
+				width: 20px
+				height: 20px
+				cursor: move
+				transform: transLateY(-50%)
+				border: none
+				border-radius: 50%
+				border: 2px solid #00a8bc
+				background-color: white
+			.range__between
+				height: 2px
+				border: none
+				background-color: #00a8bc
+	span
+		color: blue
+		cursor: pointer		
+	>button
+		font-size: 14px
+		color: #ffffff
+		width: 100%
+		border: none
+		outline: none 
+		border-radius: 40px
+		background-color: #00a8bc
+		padding: 15px 40px
+
+.sort
+	background-color: white
+	box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+	border-radius: 20px
+	.main-menu-3
+		margin: 0	
+		padding: 25px 20px
+		justify-content: start
+		align-items: center
+		display: flex
+		list-style: none
+		li
+			padding-right: 20px
+			a
+				position: relative
+				color: #c7c7c7
+				text-decoration: none
+				display: block
+				transition: 0.5s
+				&::after
+					content: ""
+					position: absolute
+					width: 100%
+					height: 2px
+					top: 100%
+					left: 0
+					background: black
+					transition: 0.5s
+					opacity: 0
+				&:hover::after
+					opacity: 1
+
+
+
+.block_1
+	background-color: white
+	box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+	border-radius: 20px
+	margin-top: 40px
+	padding: 0 30px
+	width: 100%
+	img
+		padding-top: 35px
+		padding-left: 25%
+		max-height: 250px
+		object-fit: contain
+	h2
+		font-size: 18px
+		padding: 20px 0
+	p
+		margin-top: -25px
+		color: grey
+	hr
+	 width: 25%
+	 margin: 0 0
+	 float: left
+
+.tovar_kor
+	background-color: white
+	box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+	border-radius: 20px
+	img
+		width: 50px
+	.nav
+		padding-top: 20px
+		p
+			margin-bottom: 0
+			color: grey
+	.info
+		margin: 20px 0	
+		h3
+			font-size: 14px
+			p
+				color: grey
+				padding: 20px 0
+	.itog
+		padding: 10px 0
+		padding-bottom: 50px
+		margin-right: 0.1em
+		h3
+			font-size: 18px
+		button
+			color: #ffffff
+			border: none
+			outline: none 
+			border-radius: 40px
+			background-color: #00a8bc
+			padding: 15px 40px
+			margin-top: -5%
+		a
+			position: relative
+			color: #c7c7c7
+			text-decoration: none
+			display: block
+			transition: 0.5s
+			margin-right: 50px
+			margin-top: -5%
+			&::after
+				content: ""
+				position: absolute
+				width: 100%
+				height: 1px
+				top: 100%
+				left: 0
+				background: grey
+				transition: 0.5s
+
+				
+.opisanie
+	background-color: white
+	box-shadow: 0 0 5px 1px rgba(221, 221, 221, 1)
+	border-radius: 20px
+	width: 100%
+	img
+		width: 50%
+		padding: 40px 0
+		margin-left: 20%
+	.door
+		margin: 10px 7.5px 
+		border: solid 0.1em grey
+		border-radius: 20px	
+		img
+			padding: 5px 5px
+			margin: 0 auto
+			object-fit: cover
+			width: 40px
+	.owl-prev
+		position: absolute
+		left: -8%
+		top: -8%
+		img
+			width: 30px
+	.owl-next
+		position: absolute
+		right: -7%
+		top: -8%
+		img
+			width: 30px
+	.text
+		padding-top: 1%
+		h1
+			font-family: 'Lato', sans-serif
+			padding-bottom: 0
+		h2
+			font-family: 'Lato', sans-serif
+			padding-bottom: 0	
+			font-size: 28px
+			margin-left: 12%
+			padding-top: 10px
+		h3
+			text-decoration: line-through
+			font-size: 18px
+			position: absolute
+			margin-left: 0
+			color: grey
+			padding-top: 10px
+			font-weight: 200
+		span
+			margin: 0 0
+		hr
+		 width: 90%	
+	
+	.kateg
+		padding-top: 2em 
+		hr
+			margin: 0 10px
+			margin-top: 5px	
+			width: 85%
+		a
+			position: relative
+			margin: 0 10px
+			margin-right: 5.3em
+			color: #c7c7c7
+			text-decoration: none
+			display: block
+			transition: 0.5s
+			&::after
+				content: ""
+				position: absolute
+				width: 100%
+				height: 2px
+				top: 110%
+				left: 0
+				background: black
+				transition: 0.5s
+				opacity: 0
+			&:hover::after
+				opacity: 1	
+
+	.plusik
+		margin: 0 0 
+		padding-top: 2em
+		margin-right: 40px 
+		h1
+			font-size: 18px
+			font-weight: 700
+			margin: 0 0 
+		img
+			margin: 0 0
+			margin-top: 20px 
+			padding: 0 0
+			object-fit: cover
+			width: 60px
+		hr
+			margin: 0 0	
+			width: 95%
+			margin-top: 1em
+		.sale
+			color: grey
+			img
+				margin: 0 0
+				margin-left: -0.5em
+				
+	.knopki
+		padding-top: 3.3em
+		img
+			padding: 0 0 
+			width: 15px
+			margin: 0 0	
+		button
+			color: #ffffff
+			border: none
+			outline: none 
+			border-radius: 40px
+			background-color: #00a8bc
+			padding: 15px 60px
+			margin-right: 25px		
+
+				
